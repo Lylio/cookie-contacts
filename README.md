@@ -7,7 +7,7 @@
 ### Description
 A contact management app for users to store name, address, email and phone number data.
 
-This app is near exact replica of an app I built first using Quarkus as the backend framework instead of Spring Boot (but still uses
+This app is near exact replica of an app I built first [built first](https://github.com/Lylio/cookie-contacts-quarkus) using Quarkus as the backend framework instead of Spring Boot (but still uses
 the same React frontend components). Two versions exist because of the difficulty I had
 trying to embed React into the Quarkus so they can be launched as a single application (and also deployed as such). With Spring Boot and React, it's 
 fairly easy to have Spring Boot serve the React files, the app can be launched from a single terminal window, and a cloud provider
