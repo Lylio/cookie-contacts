@@ -19,7 +19,9 @@ After a lot of... "oh gawd.... oh not THIS... oh, CHRIST ON A BIKE" etc, I just 
 so that Spring Boot would serve the React components like magic and all ends of the application would happily chatter away to
 each other.
 
-Don't get me wrong, Quarkus is great, it's a treat in many ways for development, but I need to do little more study before it "Quarky" ways become more familiar.
+Don't get me wrong, Quarkus is great, it's a treat in many ways for development, but I need to do little more study before its "Quarky" charms become more familiar.
+
+"Quarky", YAS MAN! 😃
 
 ### Tech Stack
 - Spring Boot (JDK 11)
