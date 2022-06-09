@@ -5,23 +5,7 @@
 # Cookie Contacts (Spring Boot)
 
 ### Description
-A contact management app for users to store name, address, email and phone number data.
-
-This app is near exact replica of an app I [built first](https://github.com/Lylio/cookie-contacts-quarkus) using Quarkus as the backend framework instead of Spring Boot (but this app still uses
-the same React frontend components). Two versions exist because of the difficulty I had
-trying to embed React into Quarkus so that they can be launched, deployed, frozen, etc. as a single application. 
-
-With Spring Boot and React, it's fairly easy to have Spring Boot serve the React files as the app can be launched from a single terminal window. Also, a cloud provider
-like Heroku is much happier dealing with an app that already has the frontend and backend already integrated, rather than deploying them separately and
-then configuring each end to 'talk' to the other.
-
-After a lot of... "oh gawd.... oh not THIS... oh, CHRIST ON A BIKE" etc, I just decided to rebuild the backend in Spring Boot as I knew it would be straightforward to integrate React
-so that Spring Boot would serve the React components like magic and all ends of the application would happily chatter away to
-each other.
-
-Don't get me wrong, Quarkus is great, it's a treat in many ways for development, but I need to do little more study before its "Quarky" charms become more familiar.
-
-"Quarky", YAS MAN! 😃
+A contact management app.
 
 ### Tech Stack
 - Spring Boot (JDK 11)
@@ -73,6 +57,9 @@ GET http://localhost:8080/api/contacts
 2. Run `npm install`
 3. Run `npm start`
 4. Navigate to http://localhost:3000
+
+#### Docker Launch
+Coming soon.
 
 
 
