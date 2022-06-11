@@ -48,12 +48,24 @@ GET http://localhost:8080/api/contacts
  }
 ```
 
+#### Spring Boot Profiles
+*DEV*  
+The dev profile connects to a local instance of MongoDB: `mvn spring-boot:run -Dspring-boot.run.profiles=dev`
+
+*PROD*
+1. Update the prod database password in application.yml
+2. The prod profile connects to a cloud (Atlas) instance of MongoDB: `mvn spring-boot:run -Dspring-boot.run.profiles=prod`
+
+*JAR*
+1. `mvn clean package`
+2. `java -jar -Dspring.profiles.active=prod target/cookie-contacts-1.0-SNAPSHOT.jar`
+
 #### Spring Boot Backend Launch
 1. Navigate to the root backend directory (where pom.xml is)
 2. Run `mvn spring-boot:run`
 
 #### React Frontend Launch
-1. In a second terminal tab, navigate to the root frontend directory (where package.json is)
+1. In a second terminal tab, navigate to src/main/app
 2. Run `npm install`
 3. Run `npm start`
 4. Navigate to http://localhost:3000
