@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const USER_API_BASE_URL = "http://localhost:8080/api/contacts";
+const USER_API_BASE_URL = "https://cookie-contacts.herokuapp.com/api/contacts";
 
 class UserService {
 
