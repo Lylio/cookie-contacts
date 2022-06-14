@@ -35,7 +35,8 @@ spring:
     location: banner-prod.txt
   data:
     mongodb:
-      host: mongodb+srv://admin:<password>@umadit-obxpb.mongodb.net/test?retryWrites=true&w=majority
+      uri:
+      database: cookie-contacts
   application:
     name: Cookie Contacts
   config:
