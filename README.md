@@ -58,7 +58,7 @@ The dev profile connects to a local instance of MongoDB: `mvn spring-boot:run -D
 
 *JAR*
 1. `mvn clean package`
-2. `java -jar -Dspring.profiles.active=prod target/cookie-contacts-1.0-SNAPSHOT.jar`
+2. `java -jar -Dspring.profiles.active=prod target/cookie-contacts-0.0.1-SNAPSHOT.jar`
 
 #### Spring Boot Backend Launch
 1. Navigate to the root backend directory (where pom.xml is)

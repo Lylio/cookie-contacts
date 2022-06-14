@@ -35,8 +35,7 @@ spring:
     location: banner-prod.txt
   data:
     mongodb:
-      uri: mongodb+srv://cookie:${spring.data.mongodb.password}@cluster0.smlnt.mongodb.net/?retryWrites=true&w=majority
-      password: ???
+      uri:
       database: cookie-contacts
   application:
     name: Cookie Contacts
