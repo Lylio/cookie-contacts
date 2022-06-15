@@ -23,7 +23,7 @@ class ViewUserComponent extends Component {
             <div>
                 <br></br>
                 <div className = "card col-md-6 offset-md-3">
-                    <h3 className = "text-center"> View User Details</h3>
+                    <h3 className = "text-center">{ this.state.user.firstName }&nbsp;{ this.state.user.lastName }</h3>
                     <div className = "card-body">
                         <div className = "row">
                             <img className="profile-image" src={ this.state.user.profileLink }></img>

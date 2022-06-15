@@ -5,7 +5,8 @@
 # Cookie Contacts (Spring Boot)
 
 ### Description
-A contact management app.
+A contact management app. Live demo at:  
+https://cookie-contacts.herokuapp.com/
 
 ### Tech Stack
 - Spring Boot (JDK 11)
