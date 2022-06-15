@@ -53,6 +53,7 @@ public class ContactController {
         }
     }
 
+    @PostMapping()
     public Contact createContact(@RequestBody Contact contact) {
         LOG.info("Creating a new contact.");
         return contactRepository.save(contact);
