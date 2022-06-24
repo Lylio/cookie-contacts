@@ -2,11 +2,11 @@
 ![](https://github.com/Lylio/image-repo/blob/master/logos/react.png?raw=true)
 ![](https://github.com/Lylio/image-repo/blob/master/logos/mongodb.png?raw=true)
 
-# Cookie Contacts (Spring Boot)
+# Cookie Contacts
 
 ### Description
 A contact management app. Live demo at:  
-https://cookie-contacts.herokuapp.com/
+https://cookie-contacts.lyle.app
 
 ### Tech Stack
 - Spring Boot (JDK 11)
