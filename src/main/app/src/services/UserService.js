@@ -1,7 +1,10 @@
 import axios from 'axios';
+import { config } from "../constants/Constants";
 
-const USER_API_BASE_URL = "https://cookie-contacts.lyle.app/api/contacts";
+//const USER_API_BASE_URL = "https://cookie-contacts.lyle.app/api/contacts";
 //const USER_API_BASE_URL = "http://localhost:8080/api/contacts";
+
+const USER_API_BASE_URL = config.url.USER_API_BASE_URL;
 
 class UserService {
 
