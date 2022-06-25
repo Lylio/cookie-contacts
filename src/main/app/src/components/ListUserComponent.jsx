@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import UserService from '../services/UserService'
+import DeleteConfirmation from "../shared/DeleteConfirmation";
 
 class ListUserComponent extends Component {
     constructor(props) {
@@ -70,8 +71,10 @@ class ListUserComponent extends Component {
                                              <td> {user.company}</td>
                                              <td>
                                                  <button onClick={ () => this.editUser(user.id)} className="btn btn-info">Update </button>
-                                                 <button style={{marginLeft: "10px"}} onClick={ () => this.deleteUser(user.id)} className="btn btn-danger">Delete </button>
+                                                 <button style={{marginLeft: "10px"}} onClick={ () => {const confirmBox = window.confirm("Do you really want to delete this Cookie Crumb?")
+                                                     if (confirmBox === true) {this.deleteUser(user.id)}}} className="btn btn-danger">Delete</button>
                                                  <button style={{marginLeft: "10px"}} onClick={ () => this.viewUser(user.id)} className="btn btn-info">View </button>
+
                                              </td>
                                         </tr>
                                     )
