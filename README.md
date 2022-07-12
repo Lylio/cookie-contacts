@@ -1,18 +1,17 @@
-![](https://github.com/Lylio/image-repo/blob/master/logos/spring-boot.png?raw=true)
-![](https://github.com/Lylio/image-repo/blob/master/logos/react.png?raw=true)
-![](https://github.com/Lylio/image-repo/blob/master/logos/mongodb.png?raw=true)
-
 # Cookie Contacts
 
 ### Description
-A contact management app. Live demo at:  
-https://cookie-contacts.lyle.app
+A contact management app. Like Google Contacts, but about 0.000001% as popular. 
 
-### Tech Stack
-- Spring Boot (JDK 11)
-- React
-- MongoDB
-- Maven
+|              |                                                                                                                                                                                                                                                                                                                                                               |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tech Stack   | ![Spring Boot](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/spring%20boot-white.svg?style=for-the-badge&logo=springboot&logoColor=6DB33F) ![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white) |
+| Compiler     | ![Java](https://img.shields.io/badge/JAVA%20-JDK%2011-green?style=for-the-badge)                                                                                                                                                                                                                                                                              |
+| Demo Link    | [cookie-contacts.lyle.app](https://cookie-contacts.lyle.app)                                                                                                                                                                                                                                                                                                  |
+| Top Language | ![Github Language](https://img.shields.io/github/languages/top/lylio/cookie-contacts?style=for-the-badge)                                                                                                                                                                                                                                                     |
+| Repo Size    | ![Repo Size](https://img.shields.io/github/repo-size/lylio/cookie-contacts?style=for-the-badge)                                                                                                                                                                                                                                                               |
+| Last Commit  | ![Github Commit Activity](https://img.shields.io/github/last-commit/lylio/cookie-contacts/main?style=for-the-badge)                                                                                                                                                                                                                                           |
+
 
 ### Setup & Launch
 
@@ -71,8 +70,11 @@ The dev profile connects to a local instance of MongoDB: `mvn spring-boot:run -D
 3. Run `npm start`
 4. Navigate to http://localhost:3000
 
-#### Docker Launch
-Coming soon.
+
+<br >
+
+#### Acknowledgements
+The cool repo badges, logos and code stats on this README are courtesy of [Simple Icons](https://simpleicons.org) and [Shields.io](https://shields.io).
 
 
 

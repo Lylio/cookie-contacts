@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <changeSet author="lylio" id="2">
+        <insert tableName="contacts">
+            <column name="id" value="61b209fe9f95bb5bd44fdbc2"/>
+            <column name="Susan" value="VARCHAR(255)"/>
+            <column name="Plain" value="VARCHAR(255)"/>
+            <column name="s.plain@mail.com" value="VARCHAR(255)"/>
+            <column name="0011 223 334" value="VARCHAR(255)"/>
+            <column name="Cardigan Knitter" value="VARCHAR(255)"/>
+            <column name="Cards R Cool" value="VARCHAR(255)"/>
+            <column name="https://cdn-icons-png.flaticon.com/512/163/163847.png" value="VARCHAR(255)"/>
+        </insert>
+        <insert tableName="contacts">
+            <column name="id" type="61b20a6d9f95bb5bd44fdbc4"/>
+            <column name="Lister" type="VARCHAR(255)"/>
+            <column name="Lion" type="VARCHAR(255)"/>
+            <column name="roar@jungle.com" type="VARCHAR(255)"/>
+            <column name="1121 1121 1" type="VARCHAR(255)"/>
+            <column name="King" type="VARCHAR(255)"/>
+            <column name="Jungle Tours" type="VARCHAR(255)"/>
+            <column name="https://cdn-icons-png.flaticon.com/512/3969/3969803.png " type="VARCHAR(255)"/>
+        </insert>
+        <insert tableName="contacts">
+            <column name="id" type="620d6ec9482a976dd0d4f16b"/>
+            <column name="Alexander" type="VARCHAR(255)"/>
+            <column name="Matthew Henderson Smith" type="VARCHAR(255)"/>
+            <column name="alexander.matthew_henderon.smith.inbox@aol.com" type="VARCHAR(255)"/>
+            <column name="+44 01311 676 6529" type="VARCHAR(255)"/>
+            <column name="Retired Hitman" type="VARCHAR(255)"/>
+            <column name="House Painters For Hire" type="VARCHAR(255)"/>
+            <column name="https://cdn-icons-png.flaticon.com/512/949/949685.png" type="VARCHAR(255)"/>
+        </insert>
+        <insert tableName="contacts">
+            <column name="id" type="620d70ed482a976dd0d4f16c"/>
+            <column name="Lad" type="VARCHAR(255)"/>
+            <column name="McLad" type="VARCHAR(255)"/>
+            <column name="boy@lads.com" type="VARCHAR(255)"/>
+            <column name="0000020000" type="VARCHAR(255)"/>
+            <column name="Junior Apprentice" type="VARCHAR(255)"/>
+            <column name="Ladz-2-Men" type="VARCHAR(255)"/>
+            <column name="https://cdn-icons-png.flaticon.com/512/1075/1075226.png" type="VARCHAR(255)"/>
+        </insert>
+        <insert tableName="contacts">
+            <column name="id" type="62a98f74259b7b55879834a8"/>
+            <column name="Lyle" type="VARCHAR(255)"/>
+            <column name="Christine" type="VARCHAR(255)"/>
+            <column name="l.christ@bizzy.com" type="VARCHAR(255)"/>
+            <column name="07987654873" type="VARCHAR(255)"/>
+            <column name="Buzz Master" type="VARCHAR(255)"/>
+            <column name="Enuff Buzz" type="VARCHAR(255)"/>
+            <column name="https://cdn-icons-png.flaticon.com/512/809/809052.png" type="VARCHAR(255)"/>
+        </insert>
+        <insert tableName="contacts">
+            <column name="id" type="62a98fc8259b7b55879834a9"/>
+            <column name="Happy" type="VARCHAR(255)"/>
+            <column name="Toast" type="VARCHAR(255)"/>
+            <column name="joyspread@mail.com" type="VARCHAR(255)"/>
+            <column name="000002345" type="VARCHAR(255)"/>
+            <column name="Captain Crunch" type="VARCHAR(255)"/>
+            <column name="company" type="VARCHAR(255)"/>
+            <column name="https://cdn-icons-png.flaticon.com/512/284/284797.png" type="VARCHAR(255)"/>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>

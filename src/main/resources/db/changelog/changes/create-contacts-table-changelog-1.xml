@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet author="lylio" id="1">
+        <createTable tableName="contacts">
+            <column name="id" type="VARCHAR(255)" autoIncrement="false">
+                <constraints primaryKey="true" unique="true"/>
+            </column>
+            <column name="firstName" type="VARCHAR(255)"/>
+            <column name="lastName" type="VARCHAR(255)"/>
+            <column name="emailAddress" type="VARCHAR(255)"/>
+            <column name="phoneNumber" type="VARCHAR(255)"/>
+            <column name="jobTitle" type="VARCHAR(255)"/>
+            <column name="company" type="VARCHAR(255)"/>
+            <column name="profileLink" type="VARCHAR(255)"/>
+        </createTable>
+        <rollback>
+            <dropTable tableName="contacts"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>
